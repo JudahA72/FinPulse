@@ -1,0 +1,6 @@
+{
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["-q"],
+  "python.analysis.extraPaths": ["python/src"],
+  "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe"
+}

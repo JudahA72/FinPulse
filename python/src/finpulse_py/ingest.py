@@ -18,8 +18,8 @@ def FetchOhlcv(
       ticker, date, open, high, low, close, adj_close, volume
 
     Notes:
-    - We store `date` as an ISO string because SQLite handles strings easily.
-    - yfinance does not require API keys (good for MVP).
+    - I store `date` as an ISO string because SQLite handles strings easily.
+    - yfinance does not require API keys.
     """
     # Download data from Yahoo Finance through yfinance
     # For multiple tickers, this returns a DataFrame with MultiIndex columns:

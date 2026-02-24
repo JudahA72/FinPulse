@@ -1,0 +1,15 @@
+# Core data + math
+pandas
+numpy
+
+# Market data (no API key needed)
+yfinance
+
+# Load environment variables from .env
+python-dotenv
+
+# Testing
+pytest
+
+# Useful for HTTP later (stretch / optional but good)
+requests
